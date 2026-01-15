@@ -20,25 +20,25 @@ function App() {
         <div className="container">
           <Hero />
         </div>
-        <div className="container">
+        <div className="container" id="about">
           <About />
         </div>
-        <div className="container">
+        <div className="container" id="skills">
           <Skills />
         </div>
-        <div className="container">
+        <div className="container" id="services">
           <Services />
         </div>
-        <div className="container">
+        <div className="container" id="portfolio">
           <Portfolio />
         </div>
-        <div className="container">
+        <div className="container" id="reviews">
           <Reviews />
         </div>
         <div className="container">
           <Stats />
         </div>
-        <div className="container">
+        <div className="container" id="contacts">
           <Contacts />
         </div>
         <div className="container">
