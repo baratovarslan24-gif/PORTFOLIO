@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import LogoImage from "../assets/images/logo.svg";
+import LogoImage from "../../assets/images/logo.svg";
 import Nav from "./Nav";
 
 function Header() {
