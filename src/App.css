@@ -1,3 +1,16 @@
 .top-screen {
   background-image: url("/images/top-bg.jpg");
 }
+h2 {
+  position: relative;
+  display: inline-block;
+}
+h2::after {
+  content: " ";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 4px;
+  height: 10px;
+  background-color: #2352de10;
+}
