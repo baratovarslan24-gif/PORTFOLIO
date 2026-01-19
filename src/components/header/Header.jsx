@@ -1,6 +1,7 @@
 import Logo from "./Logo";
 import LogoImage from "../../assets/images/logo.svg";
 import Nav from "./Nav";
+import menuItems from "../../data/navigation";
 
 function Header() {
   return (
@@ -20,7 +21,11 @@ function Header() {
             <line y1="21" x2="30" y2="21" stroke="white" strokeWidth="2" />
           </svg>
         </button>
-        <Nav />
+        <nav className="hidden md:flex gap-7.5">
+          {menuItems.map((item) => (
+            <Nav label={item.label} url={item.url} key={item.label} />
+          ))}
+        </nav>
       </div>
     </header>
   );

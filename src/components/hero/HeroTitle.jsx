@@ -1,11 +1,10 @@
-export default function HeroTitle() {
+function HeroTitle({ name, role }) {
   return (
-    <h1 className="font-normal text-[28px] text-white mb-41 md:text-[48px]  md:mb-58.75">
-      Вітаю, я Сергій Сірко <br />
-      <strong className="font-bold text-[40px] md:text-[90px]">
-        frontend- <br />
-        розробник
-      </strong>
+    <h1 className="font-normal text-[28px] text-white leading-[130%] md:text-5xl max-w-131.5">
+      Вітаю, я {name} <br />
+      <span className="font-bold text-[40px] md:text-[90px]">{role}</span>
     </h1>
   );
 }
+
+export default HeroTitle;
