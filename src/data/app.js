@@ -19,3 +19,24 @@ export const skillsContent = {
     { skills: "JS", level: 366 },
   ],
 };
+
+export const servicesContent = {
+  title: "Послуги",
+  services: [
+    {
+      icon: "/images/code-icon.svg",
+      title: "Верстка проєктів",
+      desc: "Зроблю якісну верстку вашого проєкта за наявним макетом або прикладами робіт, які вам подобаються",
+    },
+    {
+      icon: "/images/dev-icon.svg",
+      title: "Посадка на CMS",
+      desc: "Інтегрую ваш проєкт з однією з популярних CMS",
+    },
+    {
+      icon: "/images/chat-icon.svg",
+      title: "Підтримка сайта",
+      desc: "Гарантую підтримку вашого сайта протягом 30 днів післе здачі проєкта",
+    },
+  ],
+};

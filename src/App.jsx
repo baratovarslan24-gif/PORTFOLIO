@@ -28,7 +28,7 @@ function App() {
       <div className="container" id="about">
         <About />
       </div>
-      <div className="container" id="skills">
+      <div className="container bg-[#F6F6F8]" id="skills">
         <Skills />
       </div>
       <div className="container" id="services">
