@@ -10,9 +10,9 @@ export default function ServicesCard() {
             src={item.icon}
             alt=""
           />
-          <h2 className="font-semibold text-[20px] text[#333] mb-3.75 md:text-[28px] md:mb-6.25">
+          <h3 className="font-semibold text-[20px] text[#333] mb-3.75 md:text-[28px] md:mb-6.25">
             {item.title}
-          </h2>
+          </h3>
           <p className="font-normal text-[16px] text-[#333]">{item.desc}</p>
         </div>
       ))}
