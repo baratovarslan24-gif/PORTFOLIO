@@ -46,7 +46,7 @@ function App() {
       <div className="container" id="contacts">
         <Contacts />
       </div>
-      <div className="container">
+      <div>
         <Footer />
       </div>
     </>
